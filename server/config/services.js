@@ -44,22 +44,22 @@ module.exports = {
 
   service1: {
     api: '/carousel/:productid/*',
-    url: 'http://localhost:9999',
+    url: 'http://52.14.74.216:9999',
     bundle: 'bundle.js',
   },
   service2: {
     api: '/products/:id/*',
-    url: 'http://localhost:1234',
+    url: 'http://13.58.184.178:5000/',
     bundle: 'bundle.js'
   },
   service3: {
-    api: ['/products', '/photos', '/photosBlack', '/photosRed' ],
-    url: 'http://localhost:1238',
+    api: ['/products1', '/photos', '/photosBlack', '/photosRed' ],
+    url: 'http://13.58.3.114:1238/',
     bundle: 'bundle.js'
   },
   service4: {
     api: '/rating/*',
-    url: 'http://localhost:3004',
+    url: 'http://ec2-18-222-190-75.us-east-2.compute.amazonaws.com:4444/',
     bundle: 'bundle.js'
   }
 };
