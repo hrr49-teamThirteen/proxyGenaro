@@ -3,3 +3,126 @@
   padding: 0;
 }
  */
+.navbar {
+  background-color: rgb(204, 0, 0);
+  height: 75px;
+  padding: 0 16px 0 12px;
+  display: flex;
+  align-items: center;
+  width:100%;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+}
+
+.logoContainer {
+  padding: 0px 12px;
+  position: relative;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 0 0 auto;
+  color: rgb(255, 255, 255);
+  height: 85%;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo{
+  height: 50px;
+  width: 70px;
+}
+
+.menu{
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.menulist {
+  margin-left: 12px;
+  position: relative;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  flex: 0 0 auto;
+  color: rgb(255, 255, 255);
+  height: 85%;
+}
+
+.arrowContainer {
+  padding-left: 10px;
+  margin-top: -5px;
+}
+
+.arrow {
+  border: solid white;
+  opacity: 0.6;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.searchbarContainer {
+  margin: 0px 32px;
+  display: flex;
+  min-width: 40px;
+  max-width: 600px;
+  margin: 0px 0px 0px 12px;
+  flex: 1 1 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.searchbar {
+  height: 40px;
+  display: block;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  max-width: 640px;
+  width: 100%;
+  height: 34px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 25px;
+}
+
+.search {
+  padding: 10px 72px 10px 16px;
+  display: block;
+  width: 100%;
+  cursor: text;
+  outline: none;
+  resize: none;
+  position: relative;
+  padding: 7px 40px 7px 10px;
+  margin: 0px;
+  appearance: none;
+  border-radius: 0px;
+  border: 0px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 1.35em;
+  box-sizing: border-box;
+}

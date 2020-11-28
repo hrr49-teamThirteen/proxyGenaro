@@ -13,16 +13,67 @@
        <!-- react-is -->
        <script crossorigin src="//unpkg.com/react-is/umd/react-is.production.min.js"></script>
 
-       <!-- styled-components -->
+       <!-- styled-compxonents -->
        <script crossorigin src="//unpkg.com/styled-components/dist/styled-components.min.js"></script>
 
 </head>
 <body>
-  <div id="app"></div>
+  <nav class="navbar">
+    <a class="logoContainer">
+      <img src="targetlogo.png" class="logo"></img>
+    </a>
+    <ul class="menu">
+      <li class="menulist">
+        <span>Categories</span>
+        <div class="arrowContainer">
+          <span class="arrow down"></span>
+        </div>
+      </li>
+      <li class="menulist">
+        <span>Deals</span>
+        <div class="arrowContainer">
+          <span class="arrow down"></span>
+        </div>
+      </li>
+      <li class="menulist">
+        <span>What's New</span>
+        <div class="arrowContainer">
+          <span class="arrow down"></span>
+        </div>
+      </li>
+      <li class="menulist">
+        <span>Pickup & Delivery</span>
+        <div class="arrowContainer">
+          <span class="arrow down"></span>
+        </div>
+      </li>
+    </ul>
+    <div class="searchbarContainer">
+      <form class="searchbar">
+        <input class="search" placeholder="Search">
+      </form>
+    </div>
+    <ul class="menu">
+      <li class="menulist">
+        <span>Sign in</span>
+        <div class="arrowContainer">
+          <span class="arrow down"></span>
+        </div>
+      </li>
+      <li class="menulist">
+        <span>Cart</span>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div id="app"></div>
+  </div>
   <div id="about-this-item"></div>
   <div id="carousel"></div>
-  <div id="application"></div>
 
+  <div class="container">
+    <div id="application"></div>
+  </div>
   <script src="bundles/service1.js"></script>
   <script src="bundles/service2.js"></script>
   <script src="bundles/service3.js"></script>
