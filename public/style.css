@@ -42,26 +42,25 @@
   display: flex;
   list-style-type: none;
   padding-inline-start: 0;
+  width: fit-content;
+  box-sizing: border-box;
+  height: 25px;
 }
 
 .menulist {
   margin-left: 12px;
   position: relative;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
+  display: flex;
   font-size: 18px;
   font-weight: bold;
-  flex: 0 0 auto;
   color: rgb(255, 255, 255);
   height: 85%;
+  width: fit-content;
+  white-space: nowrap ;
 }
 
 .arrowContainer {
   padding-left: 10px;
-  margin-top: -5px;
 }
 
 .arrow {
@@ -86,14 +85,15 @@
   margin: 0px 32px;
   display: flex;
   min-width: 40px;
-  max-width: 600px;
+  width: 600px;
   margin: 0px 0px 0px 12px;
-  flex: 1 1 100%;
+  /* flex: 1 1 100%; */
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
 }
+
 
 .searchbar {
   height: 40px;
@@ -125,4 +125,11 @@
   font-size: 16px;
   line-height: 1.35em;
   box-sizing: border-box;
+}
+
+.rightmenu {
+  width: fit-content;
+  display: flex;
+  margin: 0px 32px 0px 20px;
+  margin-left: auto;
 }
