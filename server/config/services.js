@@ -43,8 +43,8 @@
 module.exports = {
 
   service1: {
-    api: '/carousel/:productid/*',
-    url: 'http://52.14.74.216:9999',
+    api: ['/carousel/:productid/*', '/carousel'],
+    url: 'http://localhost:9999',
     bundle: 'bundle.js',
   },
   service2: {
